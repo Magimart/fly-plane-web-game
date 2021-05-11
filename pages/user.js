@@ -6,9 +6,13 @@ export default function User({ userAgent = "Frediee" }) {
       <Head>
         <title>Hello User Frederick!</title>
       </Head>
+      <h1>
+      <em>{userAgent}</em> !{" "}
+      </h1>
       <p>
-        {" "}
-        felix i ama here to help <em>{userAgent}</em> !{" "}
+        Magima i ama here to help
+        we will still be testing this application
+        
       </p>
     </>
   );
